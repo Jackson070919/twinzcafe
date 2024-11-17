@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    background-color: #333;
+    color: white;
+}
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #5cb85c;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+form label {
+    display: block;
+    margin-top: 8px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+}
+
+
+
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Styling for the "Add Admin" button */
+.btn-secondary {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f4f9;
+}
+
+tr:hover {
+    background-color: #d6e4f0;
+}
+
+/* Action links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
